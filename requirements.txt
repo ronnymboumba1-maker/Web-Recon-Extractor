@@ -1,0 +1,20 @@
+# ============================================
+# WEB-RECON-EXTRACTOR v1.0
+# Extraction de DB sur sites modernes
+# ============================================
+
+# HTTP
+requests>=2.31.0
+urllib3>=2.1.0
+certifi>=2023.11.17
+
+# JWT manipulation
+PyJWT>=2.8.0
+
+# MongoDB client (pour l'exploitation directe)
+pymongo>=4.6.0
+
+# Optionnel : pour des tests avancés
+# beautifulsoup4>=4.12.0
+# lxml>=5.0.0
+# dnspython>=2.4.0         # Pour les SRV records MongoDB
